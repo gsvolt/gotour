@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 type Vertex struct {
 	Lat, Long float64
 }
@@ -15,6 +13,6 @@ var m = map[string]Vertex{
 	},
 }
 
-func main() {
-	fmt.Println(m)
-}
+// func _main() {
+// 	fmt.Println(m)
+// }
