@@ -15,4 +15,8 @@ func main() {
 	v := Vertex{3, 4}
 	v.Scale(10)
 	fmt.Println(v.Abs())
+
+	v = Vertex{3, 4}
+	ScaleFunction(&v, 10)
+	fmt.Println(AbsFunction(v))
 }
