@@ -2,11 +2,11 @@ package string
 
 import "testing"
 
-func Test(t * testing.T) {
+func Test(t *testing.T) {
 	var tests = []struct {
 		s, want string
 	}{
-		{"Backward", "drawcaB"},
+		{"Backward", "drawkcaB"},
 		{"Hello, 世界", "界世 ,olleH"},
 		{"", ""},
 	}
